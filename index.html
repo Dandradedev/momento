@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="Só um pequeno lembrete para alguém especial." />
+  <title>Pra você 🤍</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <main class="page">
+    <section class="hero" aria-label="Uma mensagem especial">
+      <div class="photo-wrap">
+        <img src="assets/casal.png" alt="Ilustração do casal abraçado" class="couple" />
+      </div>
+
+      <div class="copy">
+        <span class="eyebrow">só um lembrete 🤍</span>
+        <h1>Passando pra lembrar<br />que eu tô pensando em você.</h1>
+        <p>Sem motivo específico. Só porque você apareceu na minha cabeça e eu quis deixar isso registrado por aqui.</p>
+
+        <button id="surpriseBtn" class="surprise-btn" type="button" aria-expanded="false" aria-controls="surprise">
+          <span>surpresa</span>
+          <span class="arrow">↓</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="surprise" class="surprise" hidden>
+      <div class="divider"><span></span><small>e tem mais uma coisinha</small><span></span></div>
+
+      <div class="surprise-card">
+        <div class="image-frame">
+          <img src="assets/miguel.jpg" alt="Miguel dormindo no bercinho" />
+        </div>
+        <div class="surprise-text">
+          <span>💙</span>
+          <h2>O pequeno Miguel</h2>
+          <p>Porque qualquer coisa que tenha um pedacinho de vocês também merece um espacinho aqui.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>feito com carinho, só pra você.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
